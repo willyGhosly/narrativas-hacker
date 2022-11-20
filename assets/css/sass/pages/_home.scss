@@ -1,0 +1,61 @@
+.home {
+    &__banner {
+        align-items: flex-end;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 3rem 2rem;
+    }
+    &__img {
+        &--slogan {
+            padding: 10% 10% 10% 0;
+        }
+        &--oval {
+            padding: 20%;
+        }
+    }
+}
+
+.home_content {
+    gap: 4rem;
+    &__maxw {
+        max-width: 60%;
+    }
+    &__main {
+        display: grid;
+        gap: 4rem;
+        grid-template-columns: 4fr 6fr;
+        width: 100%;
+    }
+    &__line {
+        display: block;
+        height: 3px;
+        width: 75px;
+        background-color: $secondary;
+        margin-bottom: 1rem;
+    }
+    &__parrs {
+        &--light {
+            font-size: 85%;
+        }
+    }
+    &__bottom_divition p {
+        margin-bottom: 1.25rem;
+    }
+    &__bottom_divition p:last-child {
+        margin-bottom: 0;
+    }
+    @include mq_tablet {
+        &__main {
+            grid-template-columns: 35% 55%;
+        }
+    }
+    @include mq_movil {
+        gap: 4rem;
+        &__maxw {
+            max-width: 100%;
+        }
+        &__main {
+            grid-template-columns: 1fr;
+        }
+    }
+}

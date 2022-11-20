@@ -1,0 +1,29 @@
+.header {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 320px 1fr;
+    padding: 2rem;
+    width: 100%;
+    &__ul {
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+    &__brand {
+        width: 100%;
+    }
+    @include mq(maxw, 1200px) {
+        &__link {
+            font-size: .9rem;
+        }
+    }
+    @include mq_movil {
+        grid-template-columns: 1fr;
+        &__brand {
+            max-width: 250px;
+        }
+        &__nav {
+            display: none;
+        }
+    }
+}

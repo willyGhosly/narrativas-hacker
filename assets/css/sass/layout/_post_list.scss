@@ -1,0 +1,14 @@
+.post_list {
+    &__li {
+        border-top: 2px solid $secondary;
+    }
+    &__li:last-child {
+        border-bottom: 2px solid $secondary;
+    }
+    &__link {
+        gap: .75rem;
+        padding: 1.25rem 0;
+    }
+    &__title {}
+    &__content {}
+}
