@@ -460,3 +460,13 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.container {
+  /** parent styles */
+}
+.container__title {
+  /** Elemnts styles */
+}
+.container__content {
+  /** Elemnts styles */
+}
