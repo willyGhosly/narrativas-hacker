@@ -4,7 +4,7 @@ accordeon()
 function accordeon() {
     const blocks = document.querySelectorAll('.accordeon__block')
     const contents = document.querySelectorAll('.accordeon__content')
-    if (blocks) {
+    if (blocks && contents) {
         blocks.forEach(block => {
             const barToClick = block.querySelector('.accordeon__title')
             const content = block.querySelector('.accordeon__content')
