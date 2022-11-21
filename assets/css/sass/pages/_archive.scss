@@ -1,9 +1,39 @@
+.body {
+  background-color: $secondary;
+  color: white;
+  .ao__li {
+    a {
+      color: white;
+    }
+  }
+}
 .container {
-    /** parent styles */
-    &__title {
-        /** Elemnts styles */            
-    }
-    &__content {
-        /** Elemnts styles */        
-    }
+  &__img {
+    margin: 4rem;
+  }
+
+  img {
+    width: 60%;
+  }
+}
+.list {
+  padding: 0rem 2rem;
+
+  &__li {
+    font-size: 40px;
+    font-weight: 500;
+    list-style: none;
+    line-height: 4rem;
+  }
+  &__li::before {
+    content: ">";
+    position: absolute;
+    color: #fff;
+    right: 40px;
+    font-size: 30px;
+  }
+  &__line {
+    height: 1px;
+    background-color: rgb(192, 187, 187);
+  }
 }
