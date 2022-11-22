@@ -1,24 +1,28 @@
 .head {
-    position:absolute;
+    position: absolute;
+
     .link {
-        color:white;
+        color: white;
     }
 }
+
 .containerImg {
     max-height: 50rem;
+
     img {
-        max-height: 700px;
+        max-height: 600px;
     }
 }
+
 .imagen {
     display: flex;
     position: relative;
-    top:-20rem;
+    top: -20rem;
     gap: 4rem;
 
-    &__one {
-    }
+    &__one {}
 }
+
 .container-principal {
     display: flex;
     justify-content: space-between;
@@ -31,22 +35,25 @@
         width: 35rem;
     }
 
-    &__title{
-        font-size:40px;
+    &__title {
+        font-size: 40px;
         line-height: 50px;
-        span{
+
+        span {
             text-decoration: underline 3px rgb(85, 84, 84);
         }
     }
+
     &__text {
         font-size: 20px;
-        line-height:30px;
+        line-height: 30px;
         margin-top: 1rem;
         font-weight: 400;
         margin-bottom: 1rem;
     }
+
     &__map {
-        img{
+        img {
             margin-bottom: 1rem;
 
         }
