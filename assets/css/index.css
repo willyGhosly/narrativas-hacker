@@ -534,6 +534,7 @@ footer {
   gap: 4rem;
   position: absolute;
   top: 15rem;
+  max-height: 40rem;
 }
 .container-hacker__icon {
   position: relative;
@@ -544,6 +545,7 @@ footer {
   margin-top: 1rem;
   font-size: 40px;
   font-weight: 500;
+  line-height: 40px;
 }
 .container-hacker__parrafo {
   font-size: 19px;
@@ -571,6 +573,16 @@ footer {
 }
 .container-icons__icon2 {
   width: 70%;
+}
+
+@media screen and (max-width: 767px) {
+  .container-hacker {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-icons {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
