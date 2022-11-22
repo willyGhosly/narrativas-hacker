@@ -528,7 +528,6 @@ footer {
 
 .container-hacker {
   display: flex;
-  margin-top: 2rem;
   margin: 2rem;
   margin-bottom: 0;
   color: #17774A;
@@ -563,15 +562,15 @@ footer {
 .container-icons {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 30rem;
 }
 .container-icons__icon1 {
   width: 20%;
-  height: 20%;
+  height: 50%;
 }
 .container-icons__icon2 {
   width: 70%;
-  height: 40%;
-  margin-top: -10rem;
 }
 
 /*# sourceMappingURL=index.css.map */

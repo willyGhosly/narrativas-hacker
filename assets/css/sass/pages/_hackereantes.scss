@@ -4,7 +4,6 @@
 
 .container-hacker {
     display: flex;
-    margin-top: 2rem;
     margin: 2rem;
     margin-bottom: 0;
     color: #17774A;
@@ -45,16 +44,16 @@
 .container-icons {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 30rem;
 
     &__icon1 {
         width: 20%;
-        height: 20%;
+        height: 50%;
 
     }
 
     &__icon2 {
         width: 70%;
-        height: 40%;
-        margin-top: -10rem;
     }
 }
