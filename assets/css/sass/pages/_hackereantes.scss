@@ -1,0 +1,60 @@
+.hacker {
+    background-color: #B2D7CF;
+}
+
+.container-hacker {
+    display: flex;
+    margin-top: 2rem;
+    margin: 2rem;
+    margin-bottom: 0;
+    color: #17774A;
+    gap: 4rem;
+    position: absolute;
+    top: 15rem;
+
+
+    &__icon {
+        position: relative;
+        z-index: 100;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    &__parrafo {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    &__video {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .logo {
+        width: 20%;
+        margin-top: 1rem;
+    }
+}
+
+.container-icons {
+    display: flex;
+    align-items: center;
+
+    &__icon1 {
+        width: 20%;
+        height: 20%;
+
+    }
+
+    &__icon2 {
+        width: 70%;
+        height: 40%;
+        margin-top: -10rem;
+    }
+}
