@@ -428,4 +428,46 @@ footer {
   color: white;
 }
 
+.containerImg {
+  max-height: 50rem;
+}
+.containerImg img {
+  max-height: 700px;
+}
+
+.imagen {
+  display: flex;
+  position: relative;
+  top: -20rem;
+  gap: 4rem;
+}
+.container-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.container-principal__article {
+  width: 35rem;
+}
+.container-principal__title {
+  font-size: 40px;
+  line-height: 50px;
+}
+.container-principal__title span {
+  text-decoration: underline 3px rgb(85, 84, 84);
+}
+.container-principal__text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.container-principal__map img {
+  margin-bottom: 1rem;
+}
+
 /*# sourceMappingURL=index.css.map */

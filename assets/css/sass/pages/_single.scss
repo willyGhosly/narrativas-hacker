@@ -5,7 +5,50 @@
     }
 }
 .containerImg {
+    max-height: 50rem;
     img {
-        
+        max-height: 700px;
+    }
+}
+.imagen {
+    display: flex;
+    position: relative;
+    top:-20rem;
+    gap: 4rem;
+
+    &__one {
+    }
+}
+.container-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    &__article {
+        width: 35rem;
+    }
+
+    &__title{
+        font-size:40px;
+        line-height: 50px;
+        span{
+            text-decoration: underline 3px rgb(85, 84, 84);
+        }
+    }
+    &__text {
+        font-size: 20px;
+        line-height:30px;
+        margin-top: 1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    &__map {
+        img{
+            margin-bottom: 1rem;
+
+        }
     }
 }
