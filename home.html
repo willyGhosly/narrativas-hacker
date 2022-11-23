@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
     <title>Narrativas</title>
 </head>
 
@@ -13,8 +13,10 @@
     <header class="header">
         <nav class="header__nav">
             <ul class="header__ul ao__ul ao__flex ao__flex--row_start">
-                <li class="ao__li"><a class="header__link link" href="http://" />PRÓLOGO</a></li>
-                <li class="ao__li"><a class="header__link link" href="http://" />MANIFIESTO</a></li>
+                <li class="ao__li"><a class="header__link link header__link--accordeon" href="#">PRÓLOGO</a>
+                </li>
+                <li class="ao__li"><a class="header__link link header__link--accordeon" href="#">MANIFIESTO</a>
+                </li>
             </ul>
         </nav>
         <div class="ao__flex ao__flex--row_center">
@@ -22,9 +24,9 @@
         </div>
         <nav class="header__nav">
             <ul class="header__ul ao__ul ao__flex ao__flex--row_end">
-                <li class="ao__li"><a class="header__link link" href="/archive.html" />NARRATIVAS</a></li>
-                <li class="ao__li"><a class="header__link link" href="http://" />BIBLIOTECA</a></li>
-                <li class="ao__li"><a class="header__link link" href="http://" />LES HACKEREANTES</a></li>
+                <li class="ao__li"><a class="header__link link" href="/archive.html">NARRATIVAS</a></li>
+                <li class="ao__li"><a class="header__link link" href="#">BIBLIOTECA</a></li>
+                <li class="ao__li"><a class="header__link link" href="#">LES HACKEREANTES</a></li>
             </ul>
         </nav>
     </header>
@@ -32,10 +34,10 @@
     <main class="home">
         <div class="home__banner">
             <img class="home__img--slogan" src="/assets/media/seamos-hackerantes.png" alt="">
-            <img class="home__img--oval" src="/assets/media/Path 527.svg" alt="oval" />
+            <img class="home__img--oval" src="/assets/media/Path 527.svg" alt="oval">
         </div>
         <div class="accordeon">
-            <div class="accordeon__block ao__flex ao__flex--column">
+            <div class="accordeon__block ao__flex ao__flex--column" id="home_acc_block--1">
                 <h2 class="accordeon__title ao__flex"><span>Lorem ipsum dolor sit amet.</span> <span>+</span></h2>
                 <div class="home_content accordeon__content ao__flex ao__flex--column">
                     <div class="home_content__parrs home_content__maxw home_content__bottom_divition">
@@ -115,7 +117,7 @@
                     </p>
                 </div>
             </div>
-            <div class="accordeon__block ao__flex ao__flex--column">
+            <div class="accordeon__block ao__flex ao__flex--column" id="home_acc_block--2">
                 <h2 class="accordeon__title ao__flex"><span>Lorem ipsum dolor sit amet.</span> <span>+</span></h2>
                 <div class="home_content accordeon__content ao__flex ao__flex--column">
                     <div class="home_content__parrs home_content__maxw home_content__bottom_divition">
@@ -195,7 +197,7 @@
                     </p>
                 </div>
             </div>
-            <div class="accordeon__block ao__flex ao__flex--column">
+            <div class="accordeon__block ao__flex ao__flex--column" id="home_acc_block--3">
                 <h2 class="accordeon__title ao__flex"><span>Lorem ipsum dolor sit amet.</span> <span>+</span></h2>
                 <div class="home_content accordeon__content ao__flex ao__flex--column">
                     <div class="home_content__parrs home_content__maxw home_content__bottom_divition">
