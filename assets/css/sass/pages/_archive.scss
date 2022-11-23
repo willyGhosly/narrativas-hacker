@@ -1,39 +1,78 @@
 .body {
-  background-color: $secondary;
-  color: $primary;
-  .ao__li {
-    a {
-      color: $primary;
+    background-color: $secondary;
+    color: $primary;
+    .ao__li {
+		a {
+			color: $primary;
+		}
     }
-  }
 }
-.container {
-  &__img {
-    margin: 4rem;
-  }
-
-  img {
-    width: 60%;
-  }
+.archive {
+	&__img_align {
+		padding: 0 2rem;
+		position: fixed;
+		z-index: 1;
+	}
+	&__img {
+		width: 60%;
+	}
+	@include mq_movil {
+		&__img_align {
+			display: none; 
+		}
+	}
 }
 .list {
-  padding: 0rem 2rem;
-
-  &__li {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 4rem;
-    list-style: none;
-  }
-  &__li::before {
-    color: $primary;
-    content: ">";
-    font-size: 30px;
-    position: absolute;
-    right: 40px;
-  }
-  &__line {
-    background-color: rgb(192, 187, 187);
-    height: 1px;
-  }
+	margin-top: 27%;
+	padding: 0rem 2rem;
+	position: relative;
+	z-index: 2;
+	&__li {
+		padding: .5rem 0;
+	}
+	&__title {
+		font-size: 1.5rem;
+		position: relative;
+	}
+	&__title::before {
+		background-image: url('../media/arrow.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		color: $primary;
+		content: '';
+		font-size: 30px;
+		height: 20px;
+		margin-top: -10px;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		width: 20px;
+	}
+	&__link {
+		display: grid;
+		grid-template-columns: auto 20px;
+		padding-right: 45px;
+	}
+	&__line {
+		background-color: rgb(192, 187, 187);
+		height: 1px;
+	}
+	@include mq_movil {
+		margin-top: 2rem;
+		&__title {
+			font-size: 1rem;
+		}
+	}
+	@include mq(minw, 1025px) {
+		&__title {
+			font-size: 2vw;
+			line-height: 100%;
+		}
+		&__title::before {
+			height: 100%;
+			margin-top: 0;
+			top: 0;
+		}
+	}	
 }
