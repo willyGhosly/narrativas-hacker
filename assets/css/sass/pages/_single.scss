@@ -16,20 +16,20 @@
 
 .imagen {
     display: flex;
+    gap: 4rem;
     position: relative;
     top: -20rem;
-    gap: 4rem;
 
-    &__one {}
+    // &__one {}
 }
 
 .container-principal {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-top: 3rem;
 
     &__article {
         width: 35rem;
@@ -46,10 +46,10 @@
 
     &__text {
         font-size: 20px;
-        line-height: 30px;
-        margin-top: 1rem;
         font-weight: 400;
+        line-height: 30px;
         margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     &__map {

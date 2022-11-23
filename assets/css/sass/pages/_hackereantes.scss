@@ -3,14 +3,14 @@
 }
 
 .container-hacker {
+    color: #17774A;
     display: flex;
+    gap: 4rem;
     margin: 2rem;
     margin-bottom: 0;
-    color: #17774A;
-    gap: 4rem;
+    max-height: 40rem;
     position: absolute;
     top: 15rem;
-    max-height: 40rem;
 
 
     &__icon {
@@ -19,11 +19,11 @@
     }
 
     &__title {
-        margin-bottom: 2rem;
-        margin-top: 1rem;
         font-size: 40px;
         font-weight: 500;
         line-height: 40px;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
     }
 
     &__parrafo {
@@ -32,26 +32,26 @@
     }
 
     &__video {
+        align-items: flex-end;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
     }
 
     .logo {
-        width: 20%;
         margin-top: 1rem;
+        width: 20%;
     }
 }
 
 .container-icons {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     height: 30rem;
+    justify-content: center;
 
     &__icon1 {
-        width: 20%;
         height: 50%;
+        width: 20%;
 
     }
 
