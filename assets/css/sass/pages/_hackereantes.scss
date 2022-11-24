@@ -66,9 +66,19 @@
     .container-hacker {
         display: flex;
         flex-direction: column;
+        &__title {
+            font-size: 25px;
+        }
+        &__parrafo {
+            font-size: 17px;
+        }
+        
     }
     .container-icons{
-            display: flex;
+        visibility: hidden;
         }
+    .pie {
+        margin-top:12rem;
+    }
     
 }
